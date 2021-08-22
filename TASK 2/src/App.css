@@ -1,0 +1,81 @@
+body{
+  background: rgb(255, 255, 255);
+  /* background: linear-gradient(90deg, rgb(153,54,207) 0%, rgb(255, 255, 255) 50%, rgb(40,99,233) 100%); */
+  
+}
+.Navbar{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  margin-left: 90px;
+  height: 70px;
+}
+
+.Navbar h1{
+  margin: 0;
+  width: 50%;
+  float: left;
+  padding: 8px 40px;
+  color: white; 
+  text-shadow: 0 0 10px black, 0 0 5px yellow;
+}
+
+.Navbar button{
+  float: left;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Navbar button:hover{
+  background-color:white;
+  color: #000000;
+ 
+  border-color: 5px solid black;
+}
+
+.card{
+  width: 22%;
+  height: auto;
+  margin: 40px;
+  margin-left: 70px;
+  text-align: center;
+  background-image: linear-gradient(to bottom right,#2863e9,#9936cf);
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid rgb(0,0,0,0.8);
+  color: #fff;
+  float: left;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 10px 2px #2e2e2e;
+}
+
+.card img{
+  border-radius: 20%;
+  margin: auto;
+  display: block;
+  width: 60%;
+  height: 60%;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 10px 2px #fff;
+  transform: scale(1.1);
+}
+
+.spinner{
+  margin-left: 45%;
+  margin-top: 18%;
+  cursor: wait;
+}
+.Navbar img{
+  width: 48px;
+  height: 48px;
+  margin-left: 10%;
+  margin-top: 8px;
+  border-radius: 70px;
+  float: left;
+}
